@@ -22,7 +22,8 @@ let appData = {
 //         console.log('done');
 //         appData.expenses[article] = amount;
 //     } else {
-
+//          console.log ("bad result");
+//          i--;
 //     }
 // }
 
@@ -36,7 +37,8 @@ let appData = {
 //         console.log('done');
 //         appData.expenses[article] = amount;
 //     } else {
-
+//          console.log ("bad result");
+//          i--;
 //     }
 // } while (i < 3)
 
@@ -49,7 +51,8 @@ for (let i = 0; i < 2; i++) {
         console.log('done');
         appData.expenses[article] = amount;
     } else {
-
+        console.log ("bad result");
+        i--;
     }
 }
 
