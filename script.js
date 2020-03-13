@@ -12,6 +12,34 @@ let appData = {
     savings: false
 };
 
+// let i = 1;
+// while (i < 3) {
+//     let article = prompt('Введите обязательную статью расходов в этом месяце', ''),
+//         amount = prompt('Во сколько обойдётся?', '');
+//     i++;
+//     if ((typeof (article)) === 'string' && (typeof (article)) != null && (typeof (amount)) != null &&
+//         article != '' && amount != '' && article.length < 50) {
+//         console.log('done');
+//         appData.expenses[article] = amount;
+//     } else {
+
+//     }
+// }
+
+// let i = 1;
+// do {
+//     let article = prompt('Введите обязательную статью расходов в этом месяце', ''),
+//         amount = prompt('Во сколько обойдётся?', '');
+//     i++;
+//     if ((typeof (article)) === 'string' && (typeof (article)) != null && (typeof (amount)) != null &&
+//         article != '' && amount != '' && article.length < 50) {
+//         console.log('done');
+//         appData.expenses[article] = amount;
+//     } else {
+
+//     }
+// } while (i < 3)
+
 for (let i = 0; i < 2; i++) {
     let article = prompt('Введите обязательную статью расходов в этом месяце', ''),
         amount = prompt('Во сколько обойдётся?', '');
